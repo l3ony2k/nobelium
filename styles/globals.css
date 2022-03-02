@@ -1,3 +1,11 @@
+#cusdis_thread {
+    margin-top: 3em !important;
+    padding-top: 2.5em !important;
+    border-top: #808080 2px dashed !important;
+}
+
+/************/
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
