@@ -32,19 +32,19 @@ const BLOG = {
       domainId: '' // e.g '0e2257a8-54d4-4847-91a1-0311ea48cc7b'
     },
     gaConfig: {
-      measurementId: '' // e.g: G-XXXXXXXXXX
+      measurementId: 'G-LJNWPHHKYP' // e.g: G-XXXXXXXXXX
     }
   },
   comment: {
     // support provider: gitalk, utterances, cusdis
     provider: 'gitalk', // leave it empty if you don't need any comment plugin
     gitalkConfig: {
-      repo: '', // The repository of store comments
-      owner: '',
-      admin: [],
-      clientID: '',
-      clientSecret: '',
-      distractionFreeMode: false
+      repo: 'nobelium', // The repository of store comments
+      owner: 'LeonWong0609',
+      admin: ['LeonWong0609'],
+      clientID: 'e0ecd2171bdaf45ccb2b',
+      clientSecret: '8eb0098f7c8314578b720f97bcafddc0a31b8dee',
+      distractionFreeMode: true
     },
     utterancesConfig: {
       repo: ''
