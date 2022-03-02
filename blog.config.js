@@ -19,13 +19,13 @@ const BLOG = {
   ogImageGenerateURL: 'https://og-image-craigary.vercel.app/**W**onder%20**S**pace.png?theme=dark&md=1&fontSize=150px&images=https%3A%2F%2Fnobelium.vercel.app%2Flogo-for-dark-bg.svg&widths=50&heights=50', // The link to generate OG image, don't end with a slash
   socialLink: 'https://www.instagram.com/wonderboy0609/',
   seo: {
-    keywords: ['Blog', 'Website', 'Notion'],
-    googleSiteVerification: '' // Remove the value or replace it with your own google site verification code
+    keywords: ['Blog', 'Website', 'Notion', '个人博客', '博客'],
+    googleSiteVerification: 'XT-Li1SbIjnXYpEMt6S3AZOILcnD4dd-QpjJLXFdLx4' // Remove the value or replace it with your own google site verification code
   },
   notionPageId: process.env.NOTION_PAGE_ID, // DO NOT CHANGE THIS！！！
   notionAccessToken: process.env.NOTION_ACCESS_TOKEN, // Useful if you prefer not to make your database public
   analytics: {
-    provider: '', // Currently we support Google Analytics and Ackee, please fill with 'ga' or 'ackee', leave it empty to disable it.
+    provider: 'ga', // Currently we support Google Analytics and Ackee, please fill with 'ga' or 'ackee', leave it empty to disable it.
     ackeeConfig: {
       tracker: '', // e.g 'https://ackee.craigary.net/tracker.js'
       dataAckeeServer: '', // e.g https://ackee.craigary.net , don't end with a slash
@@ -37,7 +37,7 @@ const BLOG = {
   },
   comment: {
     // support provider: gitalk, utterances, cusdis
-    provider: '', // leave it empty if you don't need any comment plugin
+    provider: 'gitalk', // leave it empty if you don't need any comment plugin
     gitalkConfig: {
       repo: '', // The repository of store comments
       owner: '',
