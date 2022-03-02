@@ -1,3 +1,7 @@
+.notion b {
+    color: #ffffff !important;
+}
+
 .notion-list li {
     padding: 0px 0 !important;
 }
@@ -11,10 +15,18 @@
     background: #9c4d4d80 !important;
 }
 
-.notion-text {
+.notion-callout-text, .notion-quote, .notion-text {
     line-height: 1.75rem !important;
     margin-top: 0.5rem !important;
     margin-bottom: .5rem !important;
+    text-align: justify !important;
+}
+
+.notion-callout-text {
+    margin-left: 8px;
+    white-space: pre-wrap;
+    word-break: break-word;
+    width: 100%;
 }
 
 .notion-h3 {
@@ -33,6 +45,7 @@
     color: #da9898 !important;
     opacity: 1 !important;
     border-bottom: 0.1em solid !important;
+    border-color: #da989880 !important;
 }
 
 .notion-link:hover {
