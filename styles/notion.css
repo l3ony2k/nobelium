@@ -1,3 +1,36 @@
+.notion-list li {
+    padding: 0px 0 !important;
+}
+
+.notion ::selection {
+    background: rgba(219,45,45,.3) !important;
+}
+
+.notion-text {
+    line-height: 1.75rem !important;
+    margin-top: 0.5rem !important;
+    margin-bottom: .5rem !important;
+}
+
+.notion-h2 {
+    font-size: 1.5em !important;
+    margin-top: 1.1em !important;
+    margin-bottom: .5em !important;
+}
+
+.notion-h1 {
+    font-size: 1.875em !important;
+    margin-top: 1.08em !important;
+    margin-bottom: .5em !important;
+}
+
+.notion-link {
+    color: #ffbdbd !important;
+    opacity: .8 !important;
+}
+
+/*************************/
+
 /* NOTION CSS OVERRIDE */
 
 .notion {
