@@ -22,11 +22,12 @@
     text-align: justify !important;
 }
 
-.notion-callout-text {
-    margin-left: 8px;
-    white-space: pre-wrap;
-    word-break: break-word;
-    width: 100%;
+.notion-callout .notion-page-icon {
+    padding-top: 0.6em !important;
+}
+
+.notion-callout {
+    padding: 6px 16px 6px 12px !important;
 }
 
 .notion-h3 {
