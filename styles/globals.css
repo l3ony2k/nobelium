@@ -47,10 +47,11 @@
 
 html {
   --scrollbarBG: #ffffff00;
-  --thumbBG: #b8b8b8;
+  --thumbBG: #b8b8b880;
 }
 body::-webkit-scrollbar {
   width: 5px;
+  height: 5px;
 }
 body {
   scrollbar-width: thin;
