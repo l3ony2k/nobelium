@@ -78,7 +78,7 @@
 
 .notion-hr {
   @apply border-2;
-  @apply border-gray-500;
+  @apply border-gray-200/50;
 }
 
 .notion ::selection {
@@ -109,15 +109,16 @@
 
 .notion-h1, .notion-h2, .notion-h3 {
   @apply mb-2;
+  @apply text-left;
 }
 
 .notion-page-link {
   color: inherit;
 }
 
-svg.notion-page-icon {
+/*svg.notion-page-icon {
   @apply hidden;
-}
+}*/
 
 svg + .notion-page-title-text {
   @apply border-b-0;
@@ -154,18 +155,19 @@ pre[class*='language-'] {
   line-height: inherit;
 }
 
-pre {
+/* scrollbar */
+.notion-page {
   scrollbar-width: thin !important;
   scrollbar-color: #b8b8b880 #ffffff00 !important;
 }
-pre::-webkit-scrollbar {
+.notion-page::-webkit-scrollbar {
   width: 5px !important;
   height: 5px !important;
 }
-pre::-webkit-scrollbar-track {
+.notion-page::-webkit-scrollbar-track {
   background: #ffffff00 !important;
 }
-pre::-webkit-scrollbar-thumb {
+.notion-page::-webkit-scrollbar-thumb {
   background-color: #b8b8b880 !important;
 }
 
@@ -203,4 +205,29 @@ pre::-webkit-scrollbar-thumb {
 }
 .notion-collection-row {
   @apply hidden;
+}
+
+.notion-page-icon {
+  @apply dark:fill-gray-200/50;
+  @apply dark:text-gray-200/50;
+}
+
+.notion-table-header {
+  @apply dark:dark:text-gray-200;
+}
+.notion-table-header-inner {
+  @apply dark:border-y-gray-200/50;
+}
+.notion-table-view-header-cell-inner {
+  @apply dark:border-r-gray-200/50;
+}
+.notion-collection-column-title-icon {
+  @apply dark:fill-gray-200/50;
+}
+.notion-table-row {
+  @apply dark:border-b-gray-200/50;
+}
+.notion-table-cell {
+  padding: 2px 2px 3px;
+  @apply dark:border-r-gray-200/50;
 }
