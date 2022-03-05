@@ -63,7 +63,7 @@
 /* NOTION CSS OVERRIDE */
 
 .notion {
-  @apply text-neutral-700 dark:text-neutral-200;
+  @apply text-gray-700 dark:text-gray-200;
   overflow-wrap: break-word;
 }
 .notion,
@@ -99,13 +99,13 @@ svg + .notion-page-title-text {
 
 .notion-bookmark {
   @apply border;
-  @apply border-neutral-700 dark:border-neutral-200;
+  @apply border-gray-700 dark:border-gray-200;
   color: inherit;
 }
 
 .notion-bookmark .notion-bookmark-title,
 .notion-bookmark .notion-bookmark-link div {
-  @apply text-neutral-700 dark:text-neutral-200;
+  @apply text-gray-700 dark:text-gray-200;
 }
 
 .notion-bookmark:hover {
@@ -113,15 +113,15 @@ svg + .notion-page-title-text {
 }
 
 .notion-bookmark .notion-bookmark-description {
-  @apply text-neutral-600 dark:text-neutral-300;
+  @apply text-gray-600 dark:text-gray-300;
 }
 
 .notion-code > code {
-  @apply text-neutral-600 dark:text-neutral-300;
+  @apply text-gray-600 dark:text-gray-300;
 }
 
 :not(pre)>code[class*=language-], pre[class*=language-] {
-  @apply bg-neutral-100 dark:bg-neutral-900;
+  @apply bg-gray-100 dark:bg-gray-900;
 }
 
 pre[class*='language-'] {
