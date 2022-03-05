@@ -58,6 +58,22 @@
 
 */
 
+.notion b {
+  @apply text-black dark:text-white;
+}
+
+.notion-link {
+  @apply text-red-400 border-b-2 border-b-red-400;
+}
+
+.notion-list li {
+  @apply p-0;
+}
+
+.notion-list {
+  @apply py-0;
+}
+
 /*************************/
 
 /* NOTION CSS OVERRIDE */
@@ -80,13 +96,12 @@
   @apply text-base;
 }
 
-.notion-h-title {
+.notion-h1, .notion-h2, .notion-h3 {
   @apply mb-2;
 }
 
 .notion-page-link {
-  /*color: inherit;*/
-  @apply text-red-400;
+  color: inherit;
 }
 
 svg.notion-page-icon {
