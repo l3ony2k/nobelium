@@ -290,3 +290,7 @@ pre::-webkit-scrollbar-thumb, div::-webkit-scrollbar-thumb {
   @apply bg-black/10 dark:bg-white/10;
   font-size: 85% !important;
 }
+
+.notion-text:first-child {
+  @apply mt-2;
+}
