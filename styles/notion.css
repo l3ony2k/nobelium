@@ -131,10 +131,15 @@
 .notion-text,
 .notion-quote,
 .notion-h-title {
-  @apply text-justify;
   @apply leading-7;
   @apply p-0;
   @apply my-2;
+}
+
+@media screen and (min-width: 768px) {
+  .notion, .notion-text, .notion-quote {
+    @apply text-justify;
+  }
 }
 
 .notion-quote {
