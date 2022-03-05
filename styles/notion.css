@@ -295,3 +295,7 @@ pre::-webkit-scrollbar-thumb, div::-webkit-scrollbar-thumb {
 .notion-text:first-child {
   @apply mt-2;
 }
+
+.notion-table-of-contents {
+  @apply my-2;
+}
