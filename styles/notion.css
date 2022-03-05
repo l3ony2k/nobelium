@@ -217,19 +217,25 @@ pre[class*='language-'] {
   @apply dark:dark:text-gray-200;
 }
 .notion-table-header-inner {
-  @apply dark:border-y-gray-200/50;
+  /*@apply dark:border-y-gray-200/50;*/
+  border-top-color: rgb(229 231 235 / 0.5);
+  border-bottom-color: rgb(229 231 235 / 0.5);
 }
 .notion-table-view-header-cell-inner {
-  @apply dark:border-r-gray-200/50;
+  /*@apply dark:border-r-gray-200/50;*/
+  border-top-color: rgb(229 231 235 / 0.5);
+  border-bottom-color: rgb(229 231 235 / 0.5);
 }
 .notion-collection-column-title-icon {
   fill: rgb(229 231 235 / 0.5);
   /*@apply dark:fill-gray-200/50;*/
 }
 .notion-table-row {
-  @apply dark:border-b-gray-200/50;
+  /*@apply dark:border-b-gray-200/50;*/
+  border-bottom-color: rgb(229 231 235 / 0.5);
 }
 .notion-table-cell {
   padding: 2px 2px 3px;
-  @apply dark:border-r-gray-200/50;
+  /*@apply dark:border-r-gray-200/50;*/
+  border-right-color: rgb(229 231 235 / 0.5);
 }
