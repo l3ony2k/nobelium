@@ -63,7 +63,7 @@
 }
 
 .notion-link {
-  @apply text-red-400 border-b-2 border-b-red-400;
+  @apply text-red-400 border-b border-b-red-200 hover:border-b-red-400 hover:border-b-2;
 }
 
 .notion-list li {
