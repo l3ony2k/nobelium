@@ -56,6 +56,7 @@
 
 @media (prefers-color-scheme:dark) {
   :root {
+    --fg-color-0: #6b728080;
     --notion-red: #DF5452;
     --notion-pink: #D15796;
     --notion-blue: #5E87C9;
@@ -73,7 +74,16 @@
     --notion-yellow_background: #564328;
     --notion-orange_background: #5C3B23;
     --notion-brown_background: #4A3228;
-    --notion-gray_background: #202020;
+    --notion-gray_background: #2F2F2F;
+    --notion-red_background_co: #362422;
+    --notion-pink_background_co: #302228;
+    --notion-blue_background_co: #1D282E;
+    --notion-purple_background_co: #2B2431;
+    --notion-teal_background_co: #222B26;
+    --notion-yellow_background_co: #392E1E;
+    --notion-orange_background_co: #38281E;
+    --notion-brown_background_co: #2F2723;
+    --notion-gray_background_co: #191919;
   }
 }
 
@@ -97,6 +107,7 @@
 
 .notion-callout {
   @apply my-2;
+  @apply dark:border-gray-200/20;
 }
 
 .notion-hr {
@@ -149,7 +160,7 @@ svg + .notion-page-title-text {
 
 .notion-bookmark {
   @apply border;
-  @apply border-gray-700/50 dark:border-gray-500/50;
+  @apply dark:border-gray-200/20;
   color: inherit;
 }
 
@@ -271,6 +282,6 @@ pre::-webkit-scrollbar-thumb, div::-webkit-scrollbar-thumb {
 
 .notion-inline-code {
   @apply text-red-500 dark:text-red-300;
-  @apply bg-red-700/20 dark:bg-red-500/50;
-  font-size: 90% !important;
+  @apply bg-black/10 dark:bg-white/10;
+  font-size: 85% !important;
 }
