@@ -156,18 +156,18 @@ pre[class*='language-'] {
 }
 
 /* scrollbar */
-.notion-page {
+pre, div, p {
   scrollbar-width: thin !important;
   scrollbar-color: #b8b8b880 #ffffff00 !important;
 }
-.notion-page::-webkit-scrollbar {
+pre::-webkit-scrollbar, div::-webkit-scrollbar {
   width: 5px !important;
   height: 5px !important;
 }
-.notion-page::-webkit-scrollbar-track {
+pre::-webkit-scrollbar-track, div::-webkit-scrollbar {
   background: #ffffff00 !important;
 }
-.notion-page::-webkit-scrollbar-thumb {
+pre::-webkit-scrollbar-thumb, div::-webkit-scrollbar {
   background-color: #b8b8b880 !important;
 }
 
@@ -225,6 +225,7 @@ pre[class*='language-'] {
   /*@apply dark:border-r-gray-200/50;*/
   border-top-color: rgb(229 231 235 / 0.5);
   border-bottom-color: rgb(229 231 235 / 0.5);
+  border-right-color: rgb(229 231 235 / 0.5);
 }
 .notion-collection-column-title-icon {
   fill: rgb(229 231 235 / 0.5);
