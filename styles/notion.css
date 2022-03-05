@@ -81,6 +81,7 @@
 }
 
 .notion-hr {
+  @apply border-2;
   @apply border-gray-500;
 }
 
@@ -124,13 +125,13 @@ svg + .notion-page-title-text {
 
 .notion-bookmark {
   @apply border;
-  @apply border-gray-700 dark:border-gray-200;
+  @apply border-gray-700 dark:border-gray-500;
   color: inherit;
 }
 
 .notion-bookmark .notion-bookmark-title,
 .notion-bookmark .notion-bookmark-link div {
-  @apply text-gray-700 dark:text-gray-200;
+  @apply text-gray-700 dark:text-gray-300;
 }
 
 .notion-bookmark:hover {
@@ -138,15 +139,11 @@ svg + .notion-page-title-text {
 }
 
 .notion-bookmark .notion-bookmark-description {
-  @apply text-gray-600 dark:text-gray-300;
-}
-
-.notion-code > code {
-  @apply text-gray-600 dark:text-gray-300;
+  @apply text-gray-600 dark:text-gray-400;
 }
 
 :not(pre)>code[class*=language-], pre[class*=language-] {
-  @apply bg-gray-100 dark:bg-gray-900;
+  background-color: #191919;
 }
 
 pre[class*='language-'] {
