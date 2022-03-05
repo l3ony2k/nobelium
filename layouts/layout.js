@@ -31,12 +31,12 @@ const Layout = ({
       fullWidth={fullWidth}
     >
       <article>
-        <h1 className="font-bold text-3xl text-black dark:text-white">
+        <h1 className="font-bold text-3xl mb-7 text-black dark:text-white">
           {frontMatter.title}
         </h1>
         {frontMatter.type[0] !== 'Page' && (
-          <nav className="flex mt-7 items-start text-gray-500 dark:text-gray-400">
-            <div className="flex mb-4">
+          <nav className="flex mt-px items-start text-gray-500 dark:text-gray-400">
+            <div className="flex mb-px">
               <a href={BLOG.socialLink || '#'} className="flex">
                 <Image
                   alt={BLOG.author}
@@ -49,7 +49,7 @@ const Layout = ({
               </a>
               <span className="block">&nbsp;/&nbsp;</span>
             </div>
-            <div className="mr-2 mb-4 md:ml-0">
+            <div className="mr-2 mb-px md:ml-0">
               {formatDate(
                 frontMatter?.date?.start_date || frontMatter.createdTime,
                 BLOG.lang
@@ -66,7 +66,7 @@ const Layout = ({
         )}
         {children}
         {blockMap && (
-          <div className="-mt-4">
+          <div className="">
             <NotionRenderer
               recordMap={blockMap}
               components={{
