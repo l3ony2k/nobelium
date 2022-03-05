@@ -54,6 +54,29 @@
 
 */
 
+@media (prefers-color-scheme:dark) {
+  :root {
+    --notion-red: #DF5452;
+    --notion-pink: #D15796;
+    --notion-blue: #5E87C9;
+    --notion-purple: #9D68D3;
+    --notion-teal: #529E72;
+    --notion-yellow: #CA9849;
+    --notion-orange: #C77D48;
+    --notion-brown: #BA856F;
+    --notion-gray: #9B9B9B;
+    --notion-red_background: #522E2A;
+    --notion-pink_background: #4E2C3C;
+    --notion-blue_background: #143A4E;
+    --notion-purple_background: #3C2D49;
+    --notion-teal_background: #243D30;
+    --notion-yellow_background: #564328;
+    --notion-orange_background: #5C3B23;
+    --notion-brown_background: #4A3228;
+    --notion-gray_background: #202020;
+  }
+}
+
 .notion b {
   @apply contrast-150;
 }
@@ -240,4 +263,14 @@ pre::-webkit-scrollbar-thumb, div::-webkit-scrollbar-thumb {
     /*@apply dark:border-r-gray-200/50;*/
     border-right-color: rgb(229 231 235 / 0.2);
   }
+}
+
+.notion-equation:active, .notion-equation:focus {
+  background: #9c4d4d80 !important;
+}
+
+.notion-inline-code {
+  @apply text-red-500 dark:text-red-300;
+  @apply bg-red-700/20 dark:bg-red-500/50;
+  font-size: 90% !important;
 }
