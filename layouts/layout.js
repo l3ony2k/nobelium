@@ -36,7 +36,7 @@ const Layout = ({
         </h1>
         {frontMatter.type[0] !== 'Page' && (
           <nav className="flex mt-px items-start text-gray-500 dark:text-gray-400">
-            <div className="flex mb-px">
+            <div className="flex mb-1">
               <a href={BLOG.socialLink || '#'} className="flex">
                 <Image
                   alt={BLOG.author}
@@ -49,7 +49,7 @@ const Layout = ({
               </a>
               <span className="block">&nbsp;/&nbsp;</span>
             </div>
-            <div className="mr-2 mb-px md:ml-0">
+            <div className="mr-2 mb-1 md:ml-0">
               {formatDate(
                 frontMatter?.date?.start_date || frontMatter.createdTime,
                 BLOG.lang

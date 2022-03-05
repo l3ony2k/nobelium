@@ -59,13 +59,13 @@
 */
 
 .notion b {
-  @apply text-black dark:text-white;
+  @apply contrast-150;
 }
 
 .notion-link {
   @apply border-b hover:border-b-2 
        text-red-500/80 hover:text-red-500/100 hover:border-b-red-500 
-       dark:text-red-300/100 dark:border-b-red-300/100 dark:hover:border-b-red-300/100;
+       dark:text-red-300/100 dark:border-b-red-300/100 dark:hover:text-red-300/100 dark:hover:border-b-red-300/100;
 }
 
 .notion-list li {
