@@ -208,7 +208,8 @@ pre[class*='language-'] {
 }
 
 .notion-page-icon {
-  @apply dark:fill-gray-200/50;
+  /*@apply dark:fill-gray-200/50;*/
+  fill: rgb(229 231 235 / 0.5);
   @apply dark:text-gray-200/50;
 }
 
@@ -222,7 +223,8 @@ pre[class*='language-'] {
   @apply dark:border-r-gray-200/50;
 }
 .notion-collection-column-title-icon {
-  @apply dark:fill-gray-200/50;
+  fill: rgb(229 231 235 / 0.5);
+  /*@apply dark:fill-gray-200/50;*/
 }
 .notion-table-row {
   @apply dark:border-b-gray-200/50;
