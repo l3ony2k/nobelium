@@ -77,7 +77,11 @@
 }
 
 .notion-callout {
-  @apply my-2 ;
+  @apply my-2;
+}
+
+.notion-hr {
+  @apply border-gray-500;
 }
 
 /*************************/
@@ -142,7 +146,7 @@ svg + .notion-page-title-text {
 }
 
 :not(pre)>code[class*=language-], pre[class*=language-] {
-  @apply bg-gray-100 dark:bg-gray-900;
+  @apply bg-gray-100 dark:bg-zinc-900;
 }
 
 pre[class*='language-'] {
