@@ -1,3 +1,5 @@
+/*
+
 .notion b {
     color: #ffffff !important;
 }
@@ -54,24 +56,37 @@
     opacity: 1;
 }
 
+*/
+
 /*************************/
 
 /* NOTION CSS OVERRIDE */
 
 .notion {
-  @apply text-gray-600 dark:text-gray-300;
+  @apply text-neutral-700 dark:text-neutral-200;
   overflow-wrap: break-word;
 }
 .notion,
 .notion-text,
 .notion-quote,
 .notion-h-title {
-  @apply leading-8;
+  @apply text-justify;
+  @apply leading-7;
   @apply p-0;
-  @apply my-3;
+  @apply my-2;
 }
+
+.notion-quote {
+  @apply text-base;
+}
+
+.notion-h-title {
+  @apply mb-2;
+}
+
 .notion-page-link {
-  color: inherit;
+  /*color: inherit;*/
+  @apply text-red-400;
 }
 
 svg.notion-page-icon {
@@ -84,30 +99,35 @@ svg + .notion-page-title-text {
 
 .notion-bookmark {
   @apply border;
-  @apply border-gray-100;
+  @apply border-neutral-700 dark:border-neutral-200;
   color: inherit;
 }
 
 .notion-bookmark .notion-bookmark-title,
 .notion-bookmark .notion-bookmark-link div {
-  @apply text-gray-900 dark:text-gray-200;
+  @apply text-neutral-700 dark:text-neutral-200;
+}
+
+.notion-bookmark:hover {
+  @apply border-red-400;
 }
 
 .notion-bookmark .notion-bookmark-description {
-  @apply text-gray-600 dark:text-gray-300;
+  @apply text-neutral-600 dark:text-neutral-300;
 }
 
 .notion-code > code {
-  @apply text-gray-900;
+  @apply text-neutral-600 dark:text-neutral-300;
+}
+
+:not(pre)>code[class*=language-], pre[class*=language-] {
+  @apply bg-neutral-100 dark:bg-neutral-900;
 }
 
 pre[class*='language-'] {
   line-height: inherit;
 }
 
-.notion-bookmark:hover {
-  @apply border-blue-400;
-}
 .notion-viewport {
   z-index: -10;
 }
