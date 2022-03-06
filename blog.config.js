@@ -2,8 +2,8 @@ const BLOG = {
   title: 'Wonder Space',
   author: 'L3ON',
   email: 'wonderboy0609@outlook.com',
-  link: 'https://l3onotion.vercel.app',
-  description: '不可胜在己，可胜在敌',
+  link: 'https://blog.l3on.site',
+  description: '不可勝在己，可勝在敵',
   lang: 'zh-CN', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
   appearance: 'auto', // ['light', 'dark', 'auto'],
   font: 'sans-serif', // ['sans-serif', 'serif']
@@ -20,7 +20,7 @@ const BLOG = {
   socialLink: 'https://www.instagram.com/wonderboy0609/',
   seo: {
     keywords: ['Blog', 'Website', 'Notion', '个人博客', '博客'],
-    googleSiteVerification: 'XT-Li1SbIjnXYpEMt6S3AZOILcnD4dd-QpjJLXFdLx4' // Remove the value or replace it with your own google site verification code
+    googleSiteVerification: '6YxPdXNLSGTsJtcMDwh2RdmRPmPD9GUW85vLmgSYczQ' // Remove the value or replace it with your own google site verification code
   },
   notionPageId: process.env.NOTION_PAGE_ID, // DO NOT CHANGE THIS！！！
   notionAccessToken: process.env.NOTION_ACCESS_TOKEN, // Useful if you prefer not to make your database public
@@ -32,7 +32,7 @@ const BLOG = {
       domainId: '' // e.g '0e2257a8-54d4-4847-91a1-0311ea48cc7b'
     },
     gaConfig: {
-      measurementId: 'G-LJNWPHHKYP' // e.g: G-XXXXXXXXXX
+      measurementId: 'G-3RY39TS8R3' // e.g: G-XXXXXXXXXX
     }
   },
   comment: {
