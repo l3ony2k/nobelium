@@ -156,3 +156,13 @@ nav {
 #cusdis_thread {
   @apply mt-8 pt-8 border-t border-t-gray-200 border-opacity-50 dark:border-t-gray-600 dark:border-opacity-50;
 }
+
+/* CC SVGs fill */
+svg.fill-gray-600.dark\:fill-gray-500 {
+  fill: #4b5563;
+}
+@media (prefers-color-scheme: dark) {
+  svg.fill-gray-600.dark\:fill-gray-500 {
+    fill: #6b7280;
+  }
+}
