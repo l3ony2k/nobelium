@@ -119,6 +119,10 @@
   background: #9c4d4d80 !important;
 }
 
+.notion ::marker {
+  @apply text-red-500 dark:text-red-300;
+}
+
 /*************************/
 
 /* NOTION CSS OVERRIDE */
