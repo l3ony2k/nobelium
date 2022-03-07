@@ -3,11 +3,8 @@ import Link from 'next/link'
 const CC = () => {
   return (
     <Link
-      href='/copyright'
-      target='_blank'
-      className='flex fill-gray-600 dark:fill-gray-500'
-    >
-      <a>
+      href='/copyright'>
+      <a className='flex fill-gray-600 dark:fill-gray-500'>
         <svg
           width='32px'
           height='32px'
