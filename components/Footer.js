@@ -1,6 +1,6 @@
-import BLOG from "@/blog.config";
-//import Vercel from '@/components/Vercel'
-import CC from "@/components/cc";
+import BLOG from '@/blog.config';
+import CC from '@/components/cc'
+
 const Footer = ({ fullWidth }) => {
   const d = new Date();
   const y = d.getFullYear();
@@ -21,7 +21,7 @@ const Footer = ({ fullWidth }) => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Footer;
+export default Footer
