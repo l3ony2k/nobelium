@@ -154,5 +154,5 @@ nav {
 }*/
 
 #cusdis_thread {
-  @apply mt-8 pt-8 border-t-gray-200 border-opacity-50 dark:border-t-gray-600 dark:border-opacity-50;
+  @apply mt-8 pt-8 border-t border-t-gray-200 border-opacity-50 dark:border-t-gray-600 dark:border-opacity-50;
 }

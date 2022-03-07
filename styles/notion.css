@@ -111,8 +111,8 @@
 }
 
 .notion-hr {
-  @apply border-2;
-  @apply border-gray-200/50;
+  @apply border border-gray-200/50 dark:border-gray-600/50;
+  @apply my-2;
 }
 
 .notion ::selection {
