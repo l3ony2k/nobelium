@@ -16,7 +16,7 @@ const BLOG = {
   showAbout: true,
   showArchive: true,
   autoCollapsedNavBar: false, // The automatically collapsed navigation bar
-  ogImageGenerateURL: 'https://og-image.vercel.app', // The link to generate OG image, don't end with a slash
+  ogImageGenerateURL: 'https://og-image-l3on.vercel.app', // The link to generate OG image, don't end with a slash
   socialLink: 'https://www.instagram.com/wonderboy0609/',
   seo: {
     keywords: ['Blog', 'Website', 'Notion', '个人博客', '博客'],
