@@ -127,6 +127,10 @@
   @apply text-red-500 dark:text-red-300;
 }
 
+.notion-asset-wrapper {
+	@apply p-0 shadow-md;
+}
+
 /*************************/
 
 /* NOTION CSS OVERRIDE */
