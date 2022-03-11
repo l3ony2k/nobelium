@@ -8,7 +8,7 @@ const Footer = ({ fullWidth }) => {
   return (
     <div
       className={`mt-6 flex-shrink-0 m-auto w-full text-gray-600 dark:text-gray-500 transition-all ${
-        !fullWidth ? 'max-w-2xl px-4' : 'px-4 md:px-24'
+        !fullWidth ? 'max-w-3xl px-4' : 'px-4 md:px-24'
       }`}
     >
       <hr className='border-gray-200 border-opacity-50 dark:border-gray-600 dark:border-opacity-50' />

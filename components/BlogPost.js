@@ -6,17 +6,17 @@ const BlogPost = ({ post }) => {
   return (
     <Link href={`${BLOG.path}/${post.slug}`}>
       <a>
-        <article key={post.id} className="mb-6 md:mb-8">
+        <article key={post.id} className="mb-6 md:mb-6 py-2 px-2.5 duration-150 hover:bg-gray-400/13 hover:rounded">
           <header className="flex flex-col justify-between md:flex-row md:items-baseline">
-            <h2 className="text-lg md:text-xl font-bold mb-2 cursor-pointer text-black dark:text-gray-200">
+            <h2 className="text-xl md:text-xl font-bold mb-2 cursor-pointer text-black dark:text-gray-200">
               {post.title}
             </h2>
-            <time className="flex-shrink-0 text-gray-600 dark:text-gray-500">
+            <time className="mb-1 flex-shrink-0 text-gray-600 dark:text-gray-500">
               {formatDate(post?.date?.start_date || post.createdTime, BLOG.lang)}
             </time>
           </header>
           <main>
-            <p className="hidden md:block leading-7 text-gray-700 dark:text-gray-400">
+            <p className="block md:block md:text-justify leading-7 text-gray-700 dark:text-gray-400">
               {post.summary}
             </p>
           </main>
