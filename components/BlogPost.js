@@ -6,7 +6,7 @@ const BlogPost = ({ post }) => {
   return (
     <Link href={`${BLOG.path}/${post.slug}`}>
       <a>
-        <article key={post.id} className="mb-6 md:mb-6 py-2 px-2.5 duration-150 hover:bg-gray-400/13 hover:rounded">
+        <article key={post.id} className="mb-6 md:mb-6 pb-1 pt-2.5 px-2.5 duration-150 hover:bg-gray-400/10 hover:rounded">
           <header className="flex flex-col justify-between md:flex-row md:items-baseline">
             <h2 className="text-xl md:text-xl font-bold mb-2 cursor-pointer text-black dark:text-gray-200">
               {post.title}
@@ -16,7 +16,7 @@ const BlogPost = ({ post }) => {
             </time>
           </header>
           <main>
-            <p className="block md:block md:text-justify leading-7 text-gray-700 dark:text-gray-400">
+            <p className="text-sm leading-6 md:text-base block md:block md:text-justify md:leading-7 text-gray-700 dark:text-gray-400">
               {post.summary}
             </p>
           </main>
