@@ -128,8 +128,17 @@
 }
 
 /*.notion-asset-wrapper {
-	@apply p-0 shadow-md;
+  @apply p-0 shadow-md;
 }*/
+
+.notion-simple-table {
+  @apply my-2 text-left border-0;
+}
+
+.notion-simple-table td {
+  @apply border-gray-200/50 dark:border-gray-600/50;
+  @apply py-0 px-1.5;
+}
 
 /*************************/
 
