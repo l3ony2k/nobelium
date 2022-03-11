@@ -40,7 +40,7 @@ const Container = ({ children, layout, fullWidth, ...customMeta }) => {
           property="og:image"
           content={`${BLOG.ogImageGenerateURL}/${encodeURIComponent(
             meta.title
-          )}.png?theme=dark&md=1&fontSize=125px&images=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fvercel-triangle-white.svg&images=https%3A%2F%2Fgithub.com%2FLeonWong0609%2Fnobelium%2Fraw%2Fmain%2FNobelium-Logo.svg&widths=200&widths=200&heights=undefined&heights=200`}
+          )}.png?theme=dark&md=1&fontSize=100px&images=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fvercel-triangle-white.svg&images=https%3A%2F%2Fgithub.com%2FLeonWong0609%2Fnobelium%2Fraw%2Fmain%2FNobelium-Logo.svg&widths=200&widths=200&heights=undefined&heights=200`}
         />
         <meta property="og:type" content={meta.type} />
         <meta name="twitter:card" content="summary_large_image" />
@@ -50,7 +50,7 @@ const Container = ({ children, layout, fullWidth, ...customMeta }) => {
           name="twitter:image"
           content={`${BLOG.ogImageGenerateURL}/${encodeURIComponent(
             meta.title
-          )}.png?theme=dark&md=1&fontSize=125px&images=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fvercel-triangle-white.svg&images=https%3A%2F%2Fgithub.com%2FLeonWong0609%2Fnobelium%2Fraw%2Fmain%2FNobelium-Logo.svg&widths=200&widths=200&heights=undefined&heights=200`}
+          )}.png?theme=dark&md=1&fontSize=100px&images=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fvercel-triangle-white.svg&images=https%3A%2F%2Fgithub.com%2FLeonWong0609%2Fnobelium%2Fraw%2Fmain%2FNobelium-Logo.svg&widths=200&widths=200&heights=undefined&heights=200`}
         />
         {meta.type === 'article' && (
           <>
