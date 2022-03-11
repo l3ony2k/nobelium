@@ -19,7 +19,7 @@ const NavBar = () => {
             link.show && (
               <li
                 key={link.id}
-                className="block ml-4 text-black dark:text-gray-50 nav"
+                className="py-1 px-2 duration-150 hover:bg-gray-400/10 block ml-2 text-black dark:text-gray-50 nav"
               >
                 <Link href={link.to}>
                   <a>{link.name}</a>
