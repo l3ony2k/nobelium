@@ -137,7 +137,7 @@
 
 .notion-simple-table td {
   @apply border-gray-200/50 dark:border-gray-600/50;
-  @apply py-0 px-1.5;
+  @apply pt-0 px-2 pb-1;
 }
 
 /*************************/
