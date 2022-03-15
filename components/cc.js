@@ -1,4 +1,4 @@
-import Link from 'next/link';
+import Link from 'next/link'
 
 const CC = () => {
   return (
@@ -18,7 +18,7 @@ const CC = () => {
         </svg>
       </a>
     </Link>
-  );
-};
+  )
+}
 
-export default CC;
+export default CC
