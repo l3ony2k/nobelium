@@ -16,7 +16,7 @@ const Footer = ({ fullWidth }) => {
         <div className='flex align-baseline justify-between flex-wrap items-center'>
           <CC />
           <p>
-            {BLOG.author} {from === y || !from ? y : `${from} - ${y}`}
+            ©️ {BLOG.author} {from === y || !from ? y : `${from} - ${y}`}
           </p>
         </div>
       </div>
