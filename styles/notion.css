@@ -311,7 +311,8 @@ pre::-webkit-scrollbar-thumb, div::-webkit-scrollbar-thumb {
 
 .notion-inline-code {
   @apply text-red-500 dark:text-red-300;
-  @apply bg-black/10 dark:bg-white/10;
+  /*@apply bg-black/10 dark:bg-white/10;*/
+  @apply bg-red-300/20 dark:bg-white/10 /*dark:bg-red-800/30*/;
   font-size: 85% !important;
 }
 
