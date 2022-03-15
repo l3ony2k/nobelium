@@ -165,6 +165,8 @@
 
 .notion-quote {
   @apply text-base;
+  @apply py-1 px-2 ml-[3px];
+  @apply border-red-500 dark:border-red-300;
 }
 
 .notion-h1, .notion-h2, .notion-h3 {
@@ -196,7 +198,7 @@ svg + .notion-page-title-text {
 }
 
 .notion-bookmark:hover {
-  @apply border-red-400;
+  @apply border-red-500 dark:border-red-300;
 }
 
 .notion-bookmark .notion-bookmark-description {
