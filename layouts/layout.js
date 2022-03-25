@@ -84,7 +84,7 @@ const Layout = ({
         <a>
           <button
             onClick={() => router.push(BLOG.path || '/')}
-            className="mt-2 cursor-pointer hover:text-black dark:hover:text-gray-100"
+            className="mt-2 cursor-pointer hover:text-red-500 hover:border-b-red-500 dark:hover:text-red-300 dark:hover:border-b-red-300"
           >
             ← {locale.POST.BACK}
           </button>
@@ -92,7 +92,7 @@ const Layout = ({
         <a>
           <button
             onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
-            className="mt-2 cursor-pointer hover:text-black dark:hover:text-gray-100"
+            className="mt-2 cursor-pointer hover:text-red-500 hover:border-b-red-500 dark:hover:text-red-300 dark:hover:border-b-red-300"
           >
             ↑ {locale.POST.TOP}
           </button>
