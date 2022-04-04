@@ -166,3 +166,17 @@ svg.fill-gray-600.dark\:fill-gray-500 {
     fill: #6b7280;
   }
 }
+
+/* home btn hover color change */
+stop {
+  transition: .5s;
+}
+svg.home-btn:hover stop:first-child {
+  stop-color: #F1BCDF;
+}
+svg.home-btn:hover stop:nth-child(2) {
+  stop-color: #DC7C93;
+}
+svg.home-btn:hover stop:last-child {
+  stop-color: #992121;
+}
