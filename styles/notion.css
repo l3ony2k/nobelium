@@ -31,6 +31,15 @@
   }
 }
 
+@font-face {
+  font-family: "IBM Plex Mono";
+  font-weight: 100 900;
+  font-display: swap;
+  font-style: normal;
+  font-named-instance: "Regular";
+  src: url("/fonts/IBMPlexMono-Regular.woff2") format("woff2");
+}
+
 .notion b {
   @apply contrast-150;
 }
@@ -119,10 +128,6 @@
 .notion-page-link {
   color: inherit;
 }
-
-/*svg.notion-page-icon {
-  @apply hidden;
-}*/
 
 svg + .notion-page-title-text {
   @apply border-b-0;
