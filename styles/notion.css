@@ -152,7 +152,10 @@ svg + .notion-page-title-text {
   padding: 8px 16px;
   @apply border border-gray-200/20;
   scrollbar-width: thin;
-  font-family: 'IBM Plex Mono', monospace !important;
+}
+
+code[class*=language-], pre[class*=language-] {
+  font-family: 'IBM Plex Mono','Consolas','Monaco','Andale Mono','Ubuntu Mono',monospace !important;
 }
 
 pre[class*='language-'] {
