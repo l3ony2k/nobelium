@@ -1,59 +1,3 @@
-/*
-
-.notion b {
-    color: #ffffff !important;
-}
-
-.notion-list li {
-    padding: 0px 0 !important;
-}
-
-.notion-list {
-    padding-top: 0 !important;
-    padding-bottom: 0 !important;
-}
-
-.notion-callout-text, .notion-quote, .notion-text {
-    line-height: 1.75rem !important;
-    margin-top: 0.5rem !important;
-    margin-bottom: .5rem !important;
-    text-align: justify !important;
-}
-
-.notion-callout .notion-page-icon {
-    padding-top: 0.6em !important;
-}
-
-.notion-callout {
-    padding: 6px 16px 6px 12px !important;
-}
-
-.notion-h3 {
-    margin-bottom: .5em !important;
-}
-
-.notion-h2 {
-    margin-bottom: .5em !important;
-}
-
-.notion-h1 {
-    margin-bottom: .5em !important;
-}
-
-.notion-link {
-    color: #da9898 !important;
-    opacity: 1 !important;
-    border-bottom: 0.1em solid !important;
-    border-color: #da989880 !important;
-}
-
-.notion-link:hover {
-    border-color: #da9898 !important;
-    opacity: 1;
-}
-
-*/
-
 @media (prefers-color-scheme:dark) {
   :root {
     --fg-color-0: #6b728080;
@@ -127,10 +71,6 @@
   @apply text-red-500 dark:text-red-300;
 }
 
-/*.notion-asset-wrapper {
-  @apply p-0 shadow-md;
-}*/
-
 .notion-simple-table {
   @apply my-2 text-left border-0;
 }
@@ -147,6 +87,8 @@
 .notion {
   @apply text-gray-700 dark:text-gray-200;
   overflow-wrap: break-word;
+  font-family: 'IBM Plex Sans',ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji,Noto Sans CJK SC,Noto Sans SC;
+  font-weight: 300;
 }
 .notion,
 .notion-text,
@@ -209,9 +151,8 @@ svg + .notion-page-title-text {
   background-color: #191919 !important;
   padding: 8px 16px;
   @apply border border-gray-200/20;
-  /*-moz-box-shadow: inset 0 0 10px #000;
-  box-shadow: inset 0 0 10px #000;*/
   scrollbar-width: thin;
+  font-family: 'IBM Plex Mono', monospace !important;
 }
 
 pre[class*='language-'] {
@@ -311,9 +252,9 @@ pre::-webkit-scrollbar-thumb, div::-webkit-scrollbar-thumb {
 
 .notion-inline-code {
   @apply text-red-500 dark:text-red-300;
-  /*@apply bg-black/10 dark:bg-white/10;*/
-  @apply bg-red-300/20 dark:bg-white/10 /*dark:bg-red-800/30*/;
+  @apply bg-red-300/20 dark:bg-white/10;
   font-size: 85% !important;
+  font-family: 'IBM Plex Mono', monospace !important;
 }
 
 .notion-text:first-child {
