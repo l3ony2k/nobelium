@@ -61,6 +61,7 @@ const Container = ({ children, layout, fullWidth, ...customMeta }) => {
             <meta property="article:author" content={BLOG.author} />
           </>
         )}
+      <script async defer data-website-id="07b36c63-1807-4dfc-9011-5743a510a317" src="https://umami.l3on.site/l3on.js"></script>
       </Head>
       <div
         className={`wrapper ${
