@@ -1,7 +1,8 @@
-import BLOG from '@/blog.config'
+import { useConfig } from '@/lib/config'
 import CC from '@/components/cc'
-
 const Footer = ({ fullWidth }) => {
+  const BLOG = useConfig()
+
   const d = new Date()
   const y = d.getFullYear()
   const from = +BLOG.since
