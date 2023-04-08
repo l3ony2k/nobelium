@@ -38,22 +38,22 @@ const BLOG = {
   },
   comment: {
     // support provider: gitalk, utterances, cusdis
-    provider: 'cusdis', // leave it empty if you don't need any comment plugin
+    provider: '', // leave it empty if you don't need any comment plugin
     gitalkConfig: {
-      repo: 'nobelium', // The repository of store comments
-      owner: 'LeonWong0609',
-      admin: ['LeonWong0609'],
-      clientID: 'e0ecd2171bdaf45ccb2b',
-      clientSecret: '8eb0098f7c8314578b720f97bcafddc0a31b8dee',
+      repo: '', // The repository of store comments
+      owner: '',
+      admin: [''],
+      clientID: '',
+      clientSecret: '',
       distractionFreeMode: true
     },
     utterancesConfig: {
       repo: ''
     },
     cusdisConfig: {
-      appId: '180db6ba-df4f-4d7f-a50d-15150caf6b8c', // data-app-id
-      host: 'https://cusdis.l3on.site', // data-host, change this if you're using self-hosted version
-      scriptSrc: 'https://cusdis.l3on.site/js/cusdis.es.js' // change this if you're using self-hosted version
+      appId: '', // data-app-id
+      host: '', // data-host, change this if you're using self-hosted version
+      scriptSrc: '' // change this if you're using self-hosted version
     }
   },
   isProd: process.env.VERCEL_ENV === 'production' // distinguish between development and production environment (ref: https://vercel.com/docs/environment-variables#system-environment-variables)
