@@ -356,10 +356,6 @@ pre::-webkit-scrollbar-thumb, div::-webkit-scrollbar-thumb {
   @apply my-2;
 }
 
-/* floating TOC 
-.notion-table-of-contents {
-  @apply xl:max-w-xs xl:max-h-[30rem] xl:fixed xl:z-10 xl:top-40 xl:inset-x-3/4 xl:overflow-y-auto;
-}*/
 .notion-property-checkbox {
   width: 24px;
   margin-right: 2px !important;

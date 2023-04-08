@@ -161,18 +161,6 @@ nav {
   }
 }
 
-/*@media (prefers-color-scheme: dark) {
-  #cusdis_thread {
-    border-top: 1px solid #4b5563 !important;
-    filter: contrast(0.6) !important;
-  }
-}
-#cusdis_thread {
-  margin-top: 2em !important;
-  padding-top: 2em !important;
-  border-top: 1px solid #e5e7eb !important;
-}*/
-
 #cusdis_thread {
   @apply mt-8 pt-8 border-t border-t-gray-200 border-opacity-50 dark:border-t-gray-600 dark:border-opacity-50;
 }
