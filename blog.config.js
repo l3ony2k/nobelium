@@ -2,7 +2,7 @@ const BLOG = {
   title: 'Wonder Space',
   author: 'L3ON',
   email: 'l3on@duck.com',
-  link: 'https://blog.l3on.site',
+  link: 'https://l3on.dev',
   description: '不可勝在己，可勝在敵',
   lang: 'en-US', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
   timezone: 'Asia/Shanghai', // Your Notion posts' date will be interpreted as this timezone. See https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for all options.

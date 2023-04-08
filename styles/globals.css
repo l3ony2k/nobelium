@@ -187,7 +187,7 @@ svg.fill-gray-600.dark\:fill-gray-500 {
   }
 }
 
-/* home btn hover color change 
+/* home btn hover color change */
 stop {
   transition: .5s;
 }
@@ -199,7 +199,8 @@ svg.home-btn:hover stop:nth-child(2) {
 }
 svg.home-btn:hover stop:last-child {
   stop-color: #992121;
-}*/
+}
+
 .capture-pointer-events * {
   @apply pointer-events-none;
 }

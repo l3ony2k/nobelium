@@ -92,24 +92,32 @@ export default function Header ({ navBarTitle, fullWidth }) {
         ref={navRef}
         onClick={handleClickHeader}
       >
-        <svg
-          viewBox="0 0 24 24"
-          className="caret w-6 h-6 absolute inset-x-0 bottom-0 mx-auto pointer-events-none opacity-30 group-hover:opacity-100 transition duration-100"
-        >
-          <path
-            d="M12 10.828l-4.95 4.95-1.414-1.414L12 8l6.364 6.364-1.414 1.414z"
-            className="fill-black dark:fill-white"
-          />
-        </svg>
+        <svg className='home-btn' width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="12" cy="12" r="12" fill="url(#paint0_radial_5_2)"/>
+                  <defs>
+                    <radialGradient id="paint0_radial_5_2" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(8 8) rotate(45) scale(15.5563)">
+                      <stop stopColor="#BABABA"/>
+                      <stop offset="0.354167" stopColor="#828282"/>
+                      <stop offset="1" stopColor="#191919"/>
+                    </radialGradient>
+                  </defs>
+              </svg>
         <div className="flex items-center">
           <Link href="/" aria-label={BLOG.title}>
-            <Image
-              src={favicon}
-              width={24}
-              height={24}
-              alt={BLOG.title}
-              onError={() => setFavicon(true)}
-            />
+          <a aria-label={BLOG.title}>
+              <div className="h-6">
+              <svg className='home-btn' width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="12" cy="12" r="12" fill="url(#paint0_radial_5_2)"/>
+                  <defs>
+                    <radialGradient id="paint0_radial_5_2" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(8 8) rotate(45) scale(15.5563)">
+                      <stop stopColor="#BABABA"/>
+                      <stop offset="0.354167" stopColor="#828282"/>
+                      <stop offset="1" stopColor="#191919"/>
+                    </radialGradient>
+                  </defs>
+              </svg>
+              </div>
+            </a>
           </Link>
           <HeaderName
             ref={titleRef}
